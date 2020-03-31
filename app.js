@@ -25,7 +25,7 @@ for (let i = 0; i <= length; i ++) {
 // トリボナッチ数列
 const memo = new Map();
 memo.set(0, 0);
-memo.set(1, 1);
+memo.set(1, 0);
 memo.set(2, 1);
 function trib(n) {
     if (memo.has(n)) {
